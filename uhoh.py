@@ -2,7 +2,6 @@ import csv
 from time import perf_counter
 import random
 from random import shuffle
-import matplotlib
 from matplotlib import pyplot as plt
 def fact(n):
     if n>1:
