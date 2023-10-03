@@ -41,7 +41,7 @@ def dostuff():
     shuffle(aa)
 
 def mian():
-    with open("/Users/dmartielli/Documents/Stuff/PyCharm/for_coding_1.csv" , 'w') as csvfile:
+    with open("/Users/ME/Documents/Stuff/PyCharm/for_coding_1.csv" , 'w') as csvfile:
         csvwriter = csv.writer(csvfile)
         csvwriter.writerow(["input", "meh time", "bad time"])
         ok = []
