@@ -46,7 +46,7 @@ def mian():
         csvwriter.writerow(["input", "meh time", "bad time"])
         ok = []
         nokay = []
-        for i in range(40):
+        for i in range(34):
             exe_time = perf_counter()
             fib_val = fib_bad(i)
             exe_time_bad = perf_counter() - exe_time
